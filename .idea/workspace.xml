@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74a91678-5e09-45de-ab78-224425cc250c" name="Default Changelist" comment="" />
+    <list default="true" id="74a91678-5e09-45de-ab78-224425cc250c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/2019 카카오 개발자 겨울 인턴쉽 문제 풀이/kakao_징검다리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2019 카카오 개발자 겨울 인턴쉽 문제 풀이/kako_불량사용자.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +32,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1akoRQv5po5kqJfKrrB3IHeo6Ef" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,31 +44,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Python.kakao튜플">
-    <configuration name="boj1931" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm training" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj1931.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.kakao_징검다리">
     <configuration name="kakao튜플" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sam5201" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="kakao_호텔방배정" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,12 +100,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019 카카오 개발자 겨울 인턴쉽 문제 풀이" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sam5201.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019 카카오 개발자 겨울 인턴쉽 문제 풀이/kakao_호텔방배정.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sam5202" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="kakao_징검다리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,12 +122,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019 카카오 개발자 겨울 인턴쉽 문제 풀이" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sam5202.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019 카카오 개발자 겨울 인턴쉽 문제 풀이/kakao_징검다리.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kako_불량사용자" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019 카카오 개발자 겨울 인턴쉽 문제 풀이" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019 카카오 개발자 겨울 인턴쉽 문제 풀이/kako_불량사용자.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.kakao_징검다리" />
+        <item itemvalue="Python.kakao_호텔방배정" />
+        <item itemvalue="Python.kako_불량사용자" />
         <item itemvalue="Python.kakao튜플" />
         <item itemvalue="Python.kakao_크레인" />
-        <item itemvalue="Python.boj1931" />
-        <item itemvalue="Python.sam5202" />
-        <item itemvalue="Python.sam5201" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +192,9 @@
       <workItem from="1588672650135" duration="6940000" />
       <workItem from="1588750324347" duration="3333000" />
       <workItem from="1588832611697" duration="4035000" />
+      <workItem from="1588838444928" duration="3168000" />
+      <workItem from="1588858480740" duration="311000" />
+      <workItem from="1588858805404" duration="3777000" />
     </task>
     <servers />
   </component>
@@ -191,58 +202,71 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1637" height="349" key="GridCell.Tab.0.bottom" timestamp="1588836650447">
+    <state x="491" y="255" key="FileChooserDialogImpl" timestamp="1588858728716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="491" y="255" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588858728716" />
+    <state x="195" y="332" key="FileDocumentManager.FileCacheConflict" timestamp="1588838799379">
       <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="195" y="332" key="FileDocumentManager.FileCacheConflict/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588838799379" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1588862584697">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="235" key="GridCell.Tab.0.bottom/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1588836573592" />
-    <state width="1637" height="349" key="GridCell.Tab.0.bottom/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588836650447" />
-    <state width="914" height="280" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588522509602" />
+    <state width="1237" height="338" key="GridCell.Tab.0.bottom/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588846676217" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
     <state width="914" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588519010171" />
-    <state width="1637" height="349" key="GridCell.Tab.0.center" timestamp="1588836650447">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1588862584697">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="235" key="GridCell.Tab.0.center/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1588836573592" />
-    <state width="1637" height="349" key="GridCell.Tab.0.center/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588836650447" />
-    <state width="914" height="280" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588522509602" />
+    <state width="1237" height="338" key="GridCell.Tab.0.center/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588846676217" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
     <state width="914" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588519010171" />
-    <state width="1637" height="349" key="GridCell.Tab.0.left" timestamp="1588836650447">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1588862584697">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="235" key="GridCell.Tab.0.left/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1588836573592" />
-    <state width="1637" height="349" key="GridCell.Tab.0.left/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588836650447" />
-    <state width="914" height="280" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588522509602" />
+    <state width="1237" height="338" key="GridCell.Tab.0.left/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588846676217" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
     <state width="914" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588519010171" />
-    <state width="1637" height="349" key="GridCell.Tab.0.right" timestamp="1588836650447">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1588862584697">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="235" key="GridCell.Tab.0.right/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1588836573592" />
-    <state width="1637" height="349" key="GridCell.Tab.0.right/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588836650447" />
-    <state width="914" height="280" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588522509602" />
+    <state width="1237" height="338" key="GridCell.Tab.0.right/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588846676217" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
     <state width="914" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588519010171" />
-    <state width="1637" height="349" key="GridCell.Tab.1.bottom" timestamp="1588836650447">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1588862584697">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="349" key="GridCell.Tab.1.bottom/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1588834977027" />
-    <state width="1637" height="349" key="GridCell.Tab.1.bottom/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588836650447" />
-    <state width="1637" height="349" key="GridCell.Tab.1.center" timestamp="1588836650447">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1237" height="338" key="GridCell.Tab.1.bottom/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588846676217" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1588862584697">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="349" key="GridCell.Tab.1.center/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1588834977027" />
-    <state width="1637" height="349" key="GridCell.Tab.1.center/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588836650447" />
-    <state width="1637" height="349" key="GridCell.Tab.1.left" timestamp="1588836650447">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1237" height="338" key="GridCell.Tab.1.center/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588846676217" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1588862584697">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="349" key="GridCell.Tab.1.left/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1588834977027" />
-    <state width="1637" height="349" key="GridCell.Tab.1.left/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588836650447" />
-    <state width="1637" height="349" key="GridCell.Tab.1.right" timestamp="1588836650447">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1237" height="338" key="GridCell.Tab.1.left/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588846676217" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1588862584697">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="349" key="GridCell.Tab.1.right/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1588834977027" />
-    <state width="1637" height="349" key="GridCell.Tab.1.right/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588836650447" />
-    <state x="141" y="134" key="SettingsEditor" timestamp="1587549283717">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1237" height="338" key="GridCell.Tab.1.right/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588846676217" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
+    <state x="212" y="142" key="SettingsEditor" timestamp="1588858731762">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="141" y="134" key="SettingsEditor/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1587549283717" />
+    <state x="141" y="134" key="SettingsEditor/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588838994447" />
+    <state x="212" y="142" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588858731762" />
     <state x="-1177" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1588075901274">
       <screen x="-1680" y="0" width="1680" height="1010" />
     </state>
@@ -256,6 +280,11 @@
           <line>4</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2019 카카오 개발자 겨울 인턴쉽 문제 풀이/kakao_징검다리.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -267,28 +296,30 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Algorithm_training$kakao_string.coverage" NAME="kakao_string Coverage Results" MODIFIED="1588078548612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam3431.coverage" NAME="sam3431 Coverage Results" MODIFIED="1587555109063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$kakao_map.coverage" NAME="kakao_map Coverage Results" MODIFIED="1588139981523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam7585.coverage" NAME="sam7585 Coverage Results" MODIFIED="1587623789437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam5202.coverage" NAME="sam5202 Coverage Results" MODIFIED="1588823694077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithm_training$boj10610.coverage" NAME="boj10610 Coverage Results" MODIFIED="1588075709702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$boj_input_output__1_.coverage" NAME="boj_input_output (1) Coverage Results" MODIFIED="1588501225237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$kakao_.coverage" NAME="kakao_크레인 Coverage Results" MODIFIED="1588834657934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam4834.coverage" NAME="sam4834 Coverage Results" MODIFIED="1588518830980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam5202.coverage" NAME="sam5202 Coverage Results" MODIFIED="1588823694077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$DB_example.coverage" NAME="DB_example Coverage Results" MODIFIED="1588500201924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam3431.coverage" NAME="sam3431 Coverage Results" MODIFIED="1587555109063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam4831.coverage" NAME="sam4831 Coverage Results" MODIFIED="1588517487729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$kakao_map.coverage" NAME="kakao_map Coverage Results" MODIFIED="1588139981523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithm_training$sam5201.coverage" NAME="sam5201 Coverage Results" MODIFIED="1588751090114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$boj1931.coverage" NAME="boj1931 Coverage Results" MODIFIED="1588824061938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam1936.coverage" NAME="sam1936 Coverage Results" MODIFIED="1588064113720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam9700.coverage" NAME="sam9700 Coverage Results" MODIFIED="1587623456078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$boj2557.coverage" NAME="boj_input_output Coverage Results" MODIFIED="1588142261197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$kakao_.coverage" NAME="kakao_징검다리 Coverage Results" MODIFIED="1588862325509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2019 카카오 개발자 겨울 인턴쉽 문제 풀이" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam7585.coverage" NAME="sam7585 Coverage Results" MODIFIED="1587623789437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$kakao_string.coverage" NAME="kakao_string Coverage Results" MODIFIED="1588078548612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$boj11047.coverage" NAME="boj11047 Coverage Results" MODIFIED="1588073192381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$boj_input_output__1_.coverage" NAME="boj_input_output (1) Coverage Results" MODIFIED="1588501225237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithm_training$sam7829.coverage" NAME="sam7829 Coverage Results" MODIFIED="1587555604440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithm_training$kakao.coverage" NAME="kakao튜플 Coverage Results" MODIFIED="1588836573589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithm_training$sam5185.coverage" NAME="sam5185 Coverage Results" MODIFIED="1588522425641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$kakao_.coverage" NAME="kakao_크레인 Coverage Results" MODIFIED="1588834657934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam1936.coverage" NAME="sam1936 Coverage Results" MODIFIED="1588064113720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam4834.coverage" NAME="sam4834 Coverage Results" MODIFIED="1588518830980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$boj2557.coverage" NAME="boj_input_output Coverage Results" MODIFIED="1588142261197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam4831.coverage" NAME="sam4831 Coverage Results" MODIFIED="1588517487729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam9700.coverage" NAME="sam9700 Coverage Results" MODIFIED="1587623456078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam1265.coverage" NAME="sam1265 Coverage Results" MODIFIED="1588064442742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam5188.coverage" NAME="sam5188 Coverage Results" MODIFIED="1588674978107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithm_training$sam1210.coverage" NAME="sam4828 Coverage Results" MODIFIED="1588514901876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$boj11047.coverage" NAME="boj11047 Coverage Results" MODIFIED="1588073192381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$DB_example.coverage" NAME="DB_example Coverage Results" MODIFIED="1588500201924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$boj1931.coverage" NAME="boj1931 Coverage Results" MODIFIED="1588824061938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$kako_.coverage" NAME="kako_불량사용자 Coverage Results" MODIFIED="1588840998258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2019 카카오 개발자 겨울 인턴쉽 문제 풀이" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam5188.coverage" NAME="sam5188 Coverage Results" MODIFIED="1588674978107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam1265.coverage" NAME="sam1265 Coverage Results" MODIFIED="1588064442742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
