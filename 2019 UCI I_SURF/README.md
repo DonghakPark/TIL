@@ -1,13 +1,16 @@
-#Research At UCI-ISURF
+## Research  At  UCI-ISURF
 
-#Donghak Park(Dankook.univ)
-#Donghyeon Choi(Kookmin.univ)
-#Woolim Cho(Sungkyunkwan.Univ)
+Donghak Park(Dankook.univ)
+Donghyeon Choi(Kookmin.univ)
+Woolim Cho(Sungkyunkwan.Univ)
+##
+## Security Implications of Compound Neural Network for Self-Driving Cars
 
-#Project Title : Security Implications of Compound Neural Network for Self-Driving Cars
-#Mentor : Prof.Sang-Woo Jun
-#Abstract
-In self-driving cars, deep learning is used to classify objects and determine actions, which
+## Mentor : Prof.Sang-Woo Jun
+
+## Abstract
+
+***In self-driving cars, deep learning is used to classify objects and determine actions, which
 are the basic and important parts of autonomous driving. However, applying deep
 learning to self-driving cars has two critical problems. First, deep learning models require
 a lot of energy. It has been shown that the power consumption of deep-learning 
@@ -25,4 +28,4 @@ as an original model without losing accuracy, even against adversarial training.
 found that quantization can compress the model by four times without losing accuracy.
 These results show that we can make a robust and lightweight model to solve the two
 problems simultaneously. In addition, we conducted an experiment to validate these
-strategies in a real environment by using a self-driving car simulator “Apollo.”
+strategies in a real environment by using a self-driving car simulator “Apollo.”***
