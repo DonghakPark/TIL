@@ -21,7 +21,7 @@ Data on subjects taken by Dankook University from 2015 to 2020
 |2018-2|컴퓨터구조|Computer Architecture|
 |2018-2|자료구조|Computer Structure|
 |2018-2|시스템프로그래밍|System Programming|
-|2018-Summber|모바일기술과트랜드개론|Overview of Mobile Technology and Trends| 
+|2018-Summer|모바일기술과트랜드개론|Overview of Mobile Technology and Trends| 
 |2018-1|컴퓨터그래픽스|Computer Graphics|
 |2018-1|디자인패턴|Design Pattern|
 |2018-1|창의적공학설계|Creative engineering design|
