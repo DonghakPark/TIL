@@ -1,8 +1,10 @@
 ## Research  At  UCI-ISURF
 
-Donghak Park(Dankook.univ)
-Donghyeon Choi(Kookmin.univ)
-Woolim Cho(Sungkyunkwan.Univ)
+- Donghak Park(Dankook.univ)
+
+- Donghyeon Choi(Kookmin.univ)
+
+- Woolim Cho(Sungkyunkwan.Univ)
 ##
 ## Security Implications of Compound Neural Network for Self-Driving Cars
 
