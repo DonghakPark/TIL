@@ -1,8 +1,3 @@
-# Deep learning Study
+# Hands-On Machine Learning with Scikit-Learn, Keras, Tensorflow Study
 
-Deep Learning Arch. Study with Python
-using tensorflow & keras
-
--------------------------------------
-Study_image processing 
-using OpenCV and Python
+starting 2020-05-22
