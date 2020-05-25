@@ -11,3 +11,9 @@
 | 백준 알고리즘 |
 
 - 위와 같은 분류의 알고리즘 문제 학습 중
+
+## dependency
+> Python3
+
+## contact
+> donghark03@naver.com
