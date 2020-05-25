@@ -1,5 +1,11 @@
 package com.donghak.lottoautomaker;
 
+"""
+@Author : DongHak Park, 32151648
+@Dankook University, Dept of Software
+@Date : 2019-08-21
+"""
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
