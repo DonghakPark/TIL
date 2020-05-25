@@ -1,5 +1,5 @@
 
-# Algorithm-Study_Python-
+# Algorithm-Study_Python
 - Solving Algorithm Problem using Python3
  
  | 문제 출처 |
