@@ -1,0 +1,8 @@
+test : poly_linkarr.o plusminus.o
+	gcc -o test poly_linkarr.o plusminus.o
+
+poly_linkarr.o : poly_linkarr.c
+	gcc -c poly_linkarr.c
+
+plusminus.o : plusminus.h plusminus.c
+	gcc -c plusminus.c
