@@ -44,7 +44,7 @@
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Python.H_index_sol">
+  <component name="RunManager" selected="Python.top_sol">
     <configuration name="H_index_sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sam5097_sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="top_sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,12 +141,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samsung Software expert" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\OneDrive - 단국대학교\Github\TIL\Study_Algorithm\samsung Software expert\sam5097_sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/top_sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.top_sol" />
         <item itemvalue="Python.H_index_sol" />
         <item itemvalue="Python.Max_NUM_sol" />
         <item itemvalue="Python.K_NUM_sol" />
         <item itemvalue="Python.kakao_cache_sol" />
-        <item itemvalue="Python.sam5097_sol" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +209,7 @@
       <workItem from="1592631502045" duration="843000" />
       <workItem from="1592720526001" duration="1763000" />
       <workItem from="1592816610027" duration="909000" />
+      <workItem from="1592878068819" duration="2591000" />
     </task>
     <servers />
   </component>
@@ -224,64 +225,64 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="195" y="332" key="FileDocumentManager.FileCacheConflict/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588838799379" />
-    <state width="916" height="284" key="GridCell.Tab.0.bottom" timestamp="1592817522073">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="334" key="GridCell.Tab.0.bottom" timestamp="1592884411684">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1652" height="352" key="GridCell.Tab.0.bottom/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1592556316171" />
-    <state width="1237" height="244" key="GridCell.Tab.0.bottom/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1591955170035" />
+    <state width="1237" height="334" key="GridCell.Tab.0.bottom/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1592884411684" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
     <state width="1877" height="396" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291586" />
     <state width="916" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592817522073" />
-    <state width="916" height="284" key="GridCell.Tab.0.center" timestamp="1592817522073">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="334" key="GridCell.Tab.0.center" timestamp="1592884411684">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1652" height="352" key="GridCell.Tab.0.center/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1592556316171" />
-    <state width="1237" height="244" key="GridCell.Tab.0.center/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1591955170034" />
+    <state width="1237" height="334" key="GridCell.Tab.0.center/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1592884411684" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
     <state width="1877" height="396" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291586" />
     <state width="916" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592817522073" />
-    <state width="916" height="284" key="GridCell.Tab.0.left" timestamp="1592817522073">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="334" key="GridCell.Tab.0.left" timestamp="1592884411684">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1652" height="352" key="GridCell.Tab.0.left/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1592556316171" />
-    <state width="1237" height="244" key="GridCell.Tab.0.left/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1591955170034" />
+    <state width="1237" height="334" key="GridCell.Tab.0.left/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1592884411684" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
     <state width="1877" height="396" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291585" />
     <state width="916" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592817522073" />
-    <state width="916" height="284" key="GridCell.Tab.0.right" timestamp="1592817522073">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="334" key="GridCell.Tab.0.right" timestamp="1592884411684">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1652" height="352" key="GridCell.Tab.0.right/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1592556316171" />
-    <state width="1237" height="244" key="GridCell.Tab.0.right/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1591955170035" />
+    <state width="1237" height="334" key="GridCell.Tab.0.right/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1592884411684" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
     <state width="1877" height="396" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291586" />
     <state width="916" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592817522073" />
-    <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1592722291586">
-      <screen x="-1920" y="-116" width="1920" height="1160" />
+    <state width="1237" height="334" key="GridCell.Tab.1.bottom" timestamp="1592884411685">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1652" height="352" key="GridCell.Tab.1.bottom/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1592556316171" />
-    <state width="1237" height="336" key="GridCell.Tab.1.bottom/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1591249245679" />
+    <state width="1237" height="334" key="GridCell.Tab.1.bottom/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1592884411685" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
     <state width="1877" height="396" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291586" />
-    <state width="1877" height="396" key="GridCell.Tab.1.center" timestamp="1592722291586">
-      <screen x="-1920" y="-116" width="1920" height="1160" />
+    <state width="1237" height="334" key="GridCell.Tab.1.center" timestamp="1592884411684">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1652" height="352" key="GridCell.Tab.1.center/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1592556316171" />
-    <state width="1237" height="336" key="GridCell.Tab.1.center/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1591249245679" />
+    <state width="1237" height="334" key="GridCell.Tab.1.center/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1592884411684" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
     <state width="1877" height="396" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291586" />
-    <state width="1877" height="396" key="GridCell.Tab.1.left" timestamp="1592722291586">
-      <screen x="-1920" y="-116" width="1920" height="1160" />
+    <state width="1237" height="334" key="GridCell.Tab.1.left" timestamp="1592884411684">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1652" height="352" key="GridCell.Tab.1.left/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1592556316171" />
-    <state width="1237" height="336" key="GridCell.Tab.1.left/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1591249245679" />
+    <state width="1237" height="334" key="GridCell.Tab.1.left/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1592884411684" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
     <state width="1877" height="396" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291586" />
-    <state width="1877" height="396" key="GridCell.Tab.1.right" timestamp="1592722291586">
-      <screen x="-1920" y="-116" width="1920" height="1160" />
+    <state width="1237" height="334" key="GridCell.Tab.1.right" timestamp="1592884411684">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1652" height="352" key="GridCell.Tab.1.right/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1592556316171" />
-    <state width="1237" height="336" key="GridCell.Tab.1.right/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1591249245679" />
+    <state width="1237" height="334" key="GridCell.Tab.1.right/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1592884411684" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
     <state width="1877" height="396" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291586" />
     <state x="-1494" y="138" key="SettingsEditor" timestamp="1592182654850">
@@ -328,6 +329,11 @@
           <line>2</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Programmers/top_sol.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -339,45 +345,46 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Study_Algorithm$H_index_sol.coverage" NAME="H_index_sol Coverage Results" MODIFIED="1592817494183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programmers" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$boj10610.coverage" NAME="boj10610 Coverage Results" MODIFIED="1588075709702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$kakao_newClustering.coverage" NAME="kakao_newClustering Coverage Results" MODIFIED="1588897976409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018 카카오 블라인드 모집" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$kakao_.coverage" NAME="kakao_크레인 Coverage Results" MODIFIED="1588834657934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$kakao_cache.coverage" NAME="kakao_cache Coverage Results" MODIFIED="1588937302119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018 카카오 블라인드 모집" />
-    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$sam4864.coverage" NAME="sam4864 Coverage Results" MODIFIED="1588937659169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
-    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$sam4861.coverage" NAME="sam4861 Coverage Results" MODIFIED="1589014708226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam4834.coverage" NAME="sam4834 Coverage Results" MODIFIED="1588518830980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study_Algorithm$sam9778.coverage" NAME="sam9778 Coverage Results" MODIFIED="1591249237951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam5202.coverage" NAME="sam5202 Coverage Results" MODIFIED="1588823694077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$DB_example.coverage" NAME="DB_example Coverage Results" MODIFIED="1588500201924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam3431.coverage" NAME="sam3431 Coverage Results" MODIFIED="1587555109063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$sam4835.coverage" NAME="sam4835 Coverage Results" MODIFIED="1589179583165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam4831.coverage" NAME="sam4831 Coverage Results" MODIFIED="1588517487729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$kakao_map.coverage" NAME="kakao_map Coverage Results" MODIFIED="1588139981523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study_Algorithm$kakao_cache.coverage" NAME="kakao_cache Coverage Results" MODIFIED="1592184442083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018 카카오 블라인드 모집" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam5201.coverage" NAME="sam5201 Coverage Results" MODIFIED="1588751090114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$boj1931.coverage" NAME="boj1931 Coverage Results" MODIFIED="1588824061938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam9700.coverage" NAME="sam9700 Coverage Results" MODIFIED="1587623456078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam1936.coverage" NAME="sam1936 Coverage Results" MODIFIED="1588064113720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study_Algorithm$Num_Baseball.coverage" NAME="Num_Baseball Coverage Results" MODIFIED="1591952777575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programmers" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$boj2557.coverage" NAME="boj_input_output Coverage Results" MODIFIED="1588142261197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study_Algorithm$sam4866.coverage" NAME="sam4866 Coverage Results" MODIFIED="1591933196459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
-    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$kakao_.coverage" NAME="kakao_징검다리 Coverage Results" MODIFIED="1588862325509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2019 카카오 개발자 겨울 인턴쉽 문제 풀이" />
-    <SUITE FILE_PATH="coverage/Study_Algorithm$sam5097.coverage" NAME="sam5097 Coverage Results" MODIFIED="1592123567510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam7585.coverage" NAME="sam7585 Coverage Results" MODIFIED="1587623789437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$kakao_string.coverage" NAME="kakao_string Coverage Results" MODIFIED="1588078548612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$opensw_problem2.coverage" NAME="opensw_problem2 Coverage Results" MODIFIED="1589892754326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$boj11047.coverage" NAME="boj11047 Coverage Results" MODIFIED="1588073192381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study_Algorithm$K_NUM_sol.coverage" NAME="K_NUM_sol Coverage Results" MODIFIED="1592556280037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programmers" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$kakao_string.coverage" NAME="kakao_string Coverage Results" MODIFIED="1588078548612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam5202.coverage" NAME="sam5202 Coverage Results" MODIFIED="1588823694077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$kakao_.coverage" NAME="kakao_징검다리 Coverage Results" MODIFIED="1588862325509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2019 카카오 개발자 겨울 인턴쉽 문제 풀이" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$boj10610.coverage" NAME="boj10610 Coverage Results" MODIFIED="1588075709702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithm_training$boj_input_output__1_.coverage" NAME="boj_input_output (1) Coverage Results" MODIFIED="1588501225237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$sam4836.coverage" NAME="sam4836 Coverage Results" MODIFIED="1589181467105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
-    <SUITE FILE_PATH="coverage/Study_Algorithm$Max_NUM_sol.coverage" NAME="Max_NUM_sol Coverage Results" MODIFIED="1592632293524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programmers" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam7829.coverage" NAME="sam7829 Coverage Results" MODIFIED="1587555604440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithm_training$kakao.coverage" NAME="kakao튜플 Coverage Results" MODIFIED="1588836573589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study_Algorithm$top_sol.coverage" NAME="top_sol Coverage Results" MODIFIED="1592884392975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programmers" />
     <SUITE FILE_PATH="coverage/Algorithm_training$sam5185.coverage" NAME="sam5185 Coverage Results" MODIFIED="1588522425641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam1210.coverage" NAME="sam4828 Coverage Results" MODIFIED="1588514901876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_training$sam5188.coverage" NAME="sam5188 Coverage Results" MODIFIED="1588674978107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$kako_.coverage" NAME="kako_불량사용자 Coverage Results" MODIFIED="1588840998258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2019 카카오 개발자 겨울 인턴쉽 문제 풀이" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$boj2557.coverage" NAME="boj_input_output Coverage Results" MODIFIED="1588142261197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam9700.coverage" NAME="sam9700 Coverage Results" MODIFIED="1587623456078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithm_training$sam1265.coverage" NAME="sam1265 Coverage Results" MODIFIED="1588064442742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam5188.coverage" NAME="sam5188 Coverage Results" MODIFIED="1588674978107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$kakao_cache.coverage" NAME="kakao_cache Coverage Results" MODIFIED="1588937302119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018 카카오 블라인드 모집" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam1210.coverage" NAME="sam4828 Coverage Results" MODIFIED="1588514901876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study_Algorithm$sam9778.coverage" NAME="sam9778 Coverage Results" MODIFIED="1591249237951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$DB_example.coverage" NAME="DB_example Coverage Results" MODIFIED="1588500201924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$boj1931.coverage" NAME="boj1931 Coverage Results" MODIFIED="1588824061938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$sam4864.coverage" NAME="sam4864 Coverage Results" MODIFIED="1588937659169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
+    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$sam4835.coverage" NAME="sam4835 Coverage Results" MODIFIED="1589179583165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
+    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$sam4861.coverage" NAME="sam4861 Coverage Results" MODIFIED="1589014708226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
+    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$kakao_newClustering.coverage" NAME="kakao_newClustering Coverage Results" MODIFIED="1588897976409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018 카카오 블라인드 모집" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam3431.coverage" NAME="sam3431 Coverage Results" MODIFIED="1587555109063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$kakao_map.coverage" NAME="kakao_map Coverage Results" MODIFIED="1588139981523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study_Algorithm$sam4866.coverage" NAME="sam4866 Coverage Results" MODIFIED="1591933196459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam7585.coverage" NAME="sam7585 Coverage Results" MODIFIED="1587623789437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam5201.coverage" NAME="sam5201 Coverage Results" MODIFIED="1588751090114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam7829.coverage" NAME="sam7829 Coverage Results" MODIFIED="1587555604440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$kakao_.coverage" NAME="kakao_크레인 Coverage Results" MODIFIED="1588834657934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam1936.coverage" NAME="sam1936 Coverage Results" MODIFIED="1588064113720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$opensw_problem2.coverage" NAME="opensw_problem2 Coverage Results" MODIFIED="1589892754326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$kako_.coverage" NAME="kako_불량사용자 Coverage Results" MODIFIED="1588840998258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2019 카카오 개발자 겨울 인턴쉽 문제 풀이" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam4834.coverage" NAME="sam4834 Coverage Results" MODIFIED="1588518830980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$sam4831.coverage" NAME="sam4831 Coverage Results" MODIFIED="1588517487729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study_Algorithm$kakao_cache.coverage" NAME="kakao_cache Coverage Results" MODIFIED="1592184442083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018 카카오 블라인드 모집" />
+    <SUITE FILE_PATH="coverage/Study_Algorithm$Max_NUM_sol.coverage" NAME="Max_NUM_sol Coverage Results" MODIFIED="1592632293524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programmers" />
+    <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$sam4836.coverage" NAME="sam4836 Coverage Results" MODIFIED="1589181467105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
+    <SUITE FILE_PATH="coverage/Algorithm_training$boj11047.coverage" NAME="boj11047 Coverage Results" MODIFIED="1588073192381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study_Algorithm$Num_Baseball.coverage" NAME="Num_Baseball Coverage Results" MODIFIED="1591952777575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programmers" />
+    <SUITE FILE_PATH="coverage/Study_Algorithm$H_index_sol.coverage" NAME="H_index_sol Coverage Results" MODIFIED="1592817494183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programmers" />
+    <SUITE FILE_PATH="coverage/Study_Algorithm$sam5097.coverage" NAME="sam5097 Coverage Results" MODIFIED="1592123567510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
   </component>
 </project>
