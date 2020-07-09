@@ -5,3 +5,4 @@ Today I Learned
 - 2. Study_Android : make own Application 
 - 3. Studt_Dankkok : Course_work result at Dankook Univ
 - 4. Study_Deep_Learning : self-Study for IDA.Lab assignment
+- 5. Making Holdem
