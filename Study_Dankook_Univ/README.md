@@ -7,6 +7,8 @@ Data on subjects taken by Dankook University from 2015 to 2020
 
 | 수강 학기  | 과목명(한글) | Subject (English)|
 |--|--|--|
+|2020-1|실무중심산학협력프로젝트1|Capstone Design 1|
+|2020-1|데이터베이스기초|Basic DataBase|
 |2019-2|멀티미디어신호처리|Multimedia-signal-Processing|
 |2019-2|인공지능|Artificial intelligence|
 |2019-2|웹프로그래밍|Web programming|
