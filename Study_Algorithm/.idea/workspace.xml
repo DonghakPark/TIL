@@ -49,29 +49,7 @@
       <recent name="E:\OneDrive - 단국대학교\Github\TIL\Study_Algorithm\Dankook" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.phone_sol">
-    <configuration name="Parsing_data_sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm training" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\OneDrive - 단국대학교\Github\TIL\Study_Algorithm\Dankook\Parsing_data_sol.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.sam1986_sol">
     <configuration name="function_dev_sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,13 +138,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sam1986_sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samsung Software expert" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samsung Software expert/sam1986_sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sam1986_sol" />
         <item itemvalue="Python.phone_sol" />
         <item itemvalue="Python.hash_player_sol" />
         <item itemvalue="Python.function_dev_sol" />
         <item itemvalue="Python.iron_stick_sol" />
-        <item itemvalue="Python.Parsing_data_sol" />
       </list>
     </recent_temporary>
   </component>
@@ -222,6 +222,7 @@
       <workItem from="1593655272061" duration="3635000" />
       <workItem from="1593739138841" duration="1804000" />
       <workItem from="1594216044874" duration="1143000" />
+      <workItem from="1594604549690" duration="2835000" />
     </task>
     <servers />
   </component>
@@ -241,38 +242,38 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="195" y="332" key="FileDocumentManager.FileCacheConflict/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1588838799379" />
-    <state width="916" height="278" key="GridCell.Tab.0.bottom" timestamp="1594217197546">
+    <state width="934" height="280" key="GridCell.Tab.0.bottom" timestamp="1594612424000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="344" key="GridCell.Tab.0.bottom/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1593741572297" />
     <state width="1237" height="334" key="GridCell.Tab.0.bottom/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1593668821562" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
     <state width="1877" height="396" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291586" />
-    <state width="916" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594217197546" />
-    <state width="916" height="278" key="GridCell.Tab.0.center" timestamp="1594217197545">
+    <state width="934" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594612424000" />
+    <state width="934" height="280" key="GridCell.Tab.0.center" timestamp="1594612424000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="344" key="GridCell.Tab.0.center/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1593741572297" />
     <state width="1237" height="334" key="GridCell.Tab.0.center/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1593668821562" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
     <state width="1877" height="396" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291586" />
-    <state width="916" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594217197545" />
-    <state width="916" height="278" key="GridCell.Tab.0.left" timestamp="1594217197545">
+    <state width="934" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594612424000" />
+    <state width="934" height="280" key="GridCell.Tab.0.left" timestamp="1594612424000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="344" key="GridCell.Tab.0.left/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1593741572297" />
     <state width="1237" height="334" key="GridCell.Tab.0.left/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1593668821562" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
     <state width="1877" height="396" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291585" />
-    <state width="916" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594217197545" />
-    <state width="916" height="278" key="GridCell.Tab.0.right" timestamp="1594217197545">
+    <state width="934" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594612424000" />
+    <state width="934" height="280" key="GridCell.Tab.0.right" timestamp="1594612424000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="344" key="GridCell.Tab.0.right/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1593741572297" />
     <state width="1237" height="334" key="GridCell.Tab.0.right/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1593668821562" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588862584697" />
     <state width="1877" height="396" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291586" />
-    <state width="916" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594217197545" />
+    <state width="934" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594612424000" />
     <state width="1637" height="344" key="GridCell.Tab.1.bottom" timestamp="1593741572297">
       <screen x="-1680" y="0" width="1680" height="1010" />
     </state>
@@ -320,16 +321,6 @@
           <url>file://$PROJECT_DIR$/kakao_크레인.py</url>
           <line>4</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/2019 카카오 개발자 겨울 인턴쉽 문제 풀이/kakao_징검다리.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/samsung Software expert/sam4835.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/opensw_problem2.py</url>
@@ -393,6 +384,7 @@
     <SUITE FILE_PATH="coverage/Algorithm_training$sam4834.coverage" NAME="sam4834 Coverage Results" MODIFIED="1588518830980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study_Algorithm$sam9778.coverage" NAME="sam9778 Coverage Results" MODIFIED="1591249237951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
     <SUITE FILE_PATH="coverage/Algorithm_training$sam5202.coverage" NAME="sam5202 Coverage Results" MODIFIED="1588823694077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study_Algorithm$sam1986_sol.coverage" NAME="sam1986_sol Coverage Results" MODIFIED="1594612397802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
     <SUITE FILE_PATH="coverage/Algorithm_training$DB_example.coverage" NAME="DB_example Coverage Results" MODIFIED="1588500201924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithm_training$sam3431.coverage" NAME="sam3431 Coverage Results" MODIFIED="1587555109063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study_Algorithm$hash_player_sol.coverage" NAME="hash_player_sol Coverage Results" MODIFIED="1594216816933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programmers" />
