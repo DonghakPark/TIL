@@ -5,5 +5,5 @@ def solution(numbers):
     return answer if int(answer) != 0 else "0"
 
 if __name__=="__main__":
-    numbers = [6,10,2]
+    numbers = [9999,9888,1544,12,4,5,5,8,7,7,9,9,9,9,9]
     print(solution(numbers))
