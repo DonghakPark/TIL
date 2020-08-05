@@ -43,6 +43,42 @@ def solution(board):
     print(dist)
     return max(dist)
 
+import sys
+
+def DFS(location, count, check):
+    global result
+
+    if count > result :
+        for e in visit:
+            for i in e:
+                print(i, end=' ')
+            print()
+        print()
+        result = count
+
+    move = [[1, 0], [0, 1], [-1, 0], [0, -1]]
+    alpa = board[location[0]][location[1]]
+
+    for move_element in move:
+        loc_y = location[0] + move_element[0]
+        loc_x = location[1] + move_element[1]
+        if loc_y < 5 and loc_y >= 0 and loc_x < 5 and loc_x >= 0:
+            if alpa < board[loc_y][loc_x] and not visit[loc_y][loc_x]:
+                visit[loc_y][loc_x] = True
+                DFS([loc_y, loc_x], count + 1, check)
+                visit[loc_y][loc_x] = False
+            elif not check and not visit[loc_y][loc_x]:
+                visit[loc_y][loc_x] = True
+                DFS([loc_y, loc_x], count + 1, True)
+                visit[loc_y][loc_x] = False
+
+board = [list(sys.stdin.readline().replace('\n', '')) for i in range(5)]
+visit = [[False for i in range(5)] for j in range(5)]
+result = 0
+visit[0][0] = True
+DFS([0, 0], 1, False)
+print(result)
+
 if __name__ == "__main__":
     board = [["A","B","T","T","T"],["T","C","D","E","T"],["T","T","T","F","T"],
              ["B","A","H","G","F"],["C","D","E","F","G"]]
