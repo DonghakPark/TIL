@@ -4,15 +4,19 @@ class TreeNode:
         self.left = None
         self.right = None
 
-longest = 0
-def dfs(node):
-    if not node:
-        return -1
-    left = dfs(node.left)
-    right = dfs(node.right)
+class solution:
+    def __init__(self):
+        pass
 
-    self.longest = max(self.longest, left+right+2)
+    longest = 0
 
-    return max(left,right) +1
-dfs(root)
-return self.longest
+    def dfs(self, node):
+        if not node:
+            return -1
+        left = solution.dfs(node.left)
+        right = solution.dfs(node.right)
+
+        self.longest = max(self.longest, left+right+2)
+
+        return max(left,right) +1
+
