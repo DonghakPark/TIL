@@ -38,7 +38,9 @@ def solution(lines):
     combined_logs = []
     for log in lines:
         logs = log.split(' ')
+        print(logs)
         timestamp = datetime.datetime.strptime(logs[0] + ' ' + logs[1], "%Y-%m-%d %H:%M:%S.%f").timestamp()
+        print(timestamp)
         combined_logs.append((timestamp, -1))
         combined_logs.append((timestamp - float(logs[2][:-1]) + 0.001, 1))
 
