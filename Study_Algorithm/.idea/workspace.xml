@@ -49,29 +49,7 @@
       <recent name="E:\OneDrive - 단국대학교\Github\TIL\Study_Algorithm\Dankook" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.[self]D_BFS_basic">
-    <configuration name="실패율" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm training" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prepare for 2020 Coding Test/2019 Kakao Blind" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prepare for 2020 Coding Test/2019 Kakao Blind/실패율.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.[na]3">
     <configuration name="[kakao[traffic_problem_sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,6 +64,72 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="D:\OneDrive - 단국대학교\Github\TIL(Today_I_Learned)\Study_Algorithm\[kakao[traffic_problem_sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="[na]1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/[na]1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="[na]2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/[na]2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="[na]3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/[na]3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,57 +160,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sam10200_sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm training" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samsung Software expert" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samsung Software expert/sam10200_sol.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sam6692_sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm training" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samsung Software expert" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samsung Software expert/sam6692_sol.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.[na]3" />
+        <item itemvalue="Python.[na]2" />
+        <item itemvalue="Python.[na]1" />
         <item itemvalue="Python.[self]D_BFS_basic" />
         <item itemvalue="Python.[kakao[traffic_problem_sol" />
-        <item itemvalue="Python.실패율" />
-        <item itemvalue="Python.sam6692_sol" />
-        <item itemvalue="Python.sam10200_sol" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +236,7 @@
       <workItem from="1598380282477" duration="716000" />
       <workItem from="1599652232029" duration="4107000" />
       <workItem from="1599735311638" duration="5690000" />
+      <workItem from="1600695236887" duration="2858000" />
     </task>
     <servers />
   </component>
@@ -247,82 +248,82 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="474" y="381" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1593149038343" />
-    <state width="914" height="316" key="GridCell.Tab.0.bottom" timestamp="1599745410710">
+    <state width="1877" height="316" key="GridCell.Tab.0.bottom" timestamp="1600698345110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="344" key="GridCell.Tab.0.bottom/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1593741572297" />
     <state width="1237" height="334" key="GridCell.Tab.0.bottom/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1593668821562" />
-    <state width="1877" height="303" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598381003187" />
+    <state width="1877" height="316" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600698345110" />
     <state width="1237" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.65.1280.984@-1280.65.1280.984" timestamp="1595829697788" />
     <state width="1877" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1595556771996" />
     <state width="1877" height="396" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291586" />
     <state width="914" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599745410710" />
-    <state width="914" height="316" key="GridCell.Tab.0.center" timestamp="1599745410710">
+    <state width="1877" height="316" key="GridCell.Tab.0.center" timestamp="1600698345110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="344" key="GridCell.Tab.0.center/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1593741572297" />
     <state width="1237" height="334" key="GridCell.Tab.0.center/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1593668821562" />
-    <state width="1877" height="303" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598381003187" />
+    <state width="1877" height="316" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600698345110" />
     <state width="1237" height="271" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.65.1280.984@-1280.65.1280.984" timestamp="1595829697788" />
     <state width="1877" height="291" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1595556771996" />
     <state width="1877" height="396" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291586" />
     <state width="914" height="316" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599745410710" />
-    <state width="914" height="316" key="GridCell.Tab.0.left" timestamp="1599745410710">
+    <state width="1877" height="316" key="GridCell.Tab.0.left" timestamp="1600698345110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="344" key="GridCell.Tab.0.left/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1593741572297" />
     <state width="1237" height="334" key="GridCell.Tab.0.left/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1593668821562" />
-    <state width="1877" height="303" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598381003186" />
+    <state width="1877" height="316" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600698345110" />
     <state width="1237" height="271" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.65.1280.984@-1280.65.1280.984" timestamp="1595829697788" />
     <state width="1877" height="291" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1595556771996" />
     <state width="1877" height="396" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291585" />
     <state width="914" height="316" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599745410710" />
-    <state width="914" height="316" key="GridCell.Tab.0.right" timestamp="1599745410710">
+    <state width="1877" height="316" key="GridCell.Tab.0.right" timestamp="1600698345110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="344" key="GridCell.Tab.0.right/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1593741572297" />
     <state width="1237" height="334" key="GridCell.Tab.0.right/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1593668821562" />
-    <state width="1877" height="303" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598381003187" />
+    <state width="1877" height="316" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600698345110" />
     <state width="1237" height="271" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.65.1280.984@-1280.65.1280.984" timestamp="1595829697788" />
     <state width="1877" height="291" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1595556771996" />
     <state width="1877" height="396" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291586" />
     <state width="914" height="316" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599745410710" />
-    <state width="1877" height="303" key="GridCell.Tab.1.bottom" timestamp="1598381003204">
+    <state width="1877" height="303" key="GridCell.Tab.1.bottom" timestamp="1600697459188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="344" key="GridCell.Tab.1.bottom/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1593741572297" />
     <state width="1237" height="334" key="GridCell.Tab.1.bottom/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1593668821562" />
-    <state width="1877" height="303" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598381003204" />
+    <state width="1877" height="303" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600697459188" />
     <state width="1237" height="303" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1280.65.1280.984@-1280.65.1280.984" timestamp="1595469308366" />
     <state width="1877" height="303" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1595471041844" />
     <state width="1877" height="396" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291586" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594953023617" />
-    <state width="1877" height="303" key="GridCell.Tab.1.center" timestamp="1598381003203">
+    <state width="1877" height="303" key="GridCell.Tab.1.center" timestamp="1600697459188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="344" key="GridCell.Tab.1.center/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1593741572297" />
     <state width="1237" height="334" key="GridCell.Tab.1.center/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1593668821562" />
-    <state width="1877" height="303" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598381003203" />
+    <state width="1877" height="303" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600697459188" />
     <state width="1237" height="303" key="GridCell.Tab.1.center/0.0.1920.1040/-1280.65.1280.984@-1280.65.1280.984" timestamp="1595469308366" />
     <state width="1877" height="303" key="GridCell.Tab.1.center/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1595471041844" />
     <state width="1877" height="396" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291586" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594953023617" />
-    <state width="1877" height="303" key="GridCell.Tab.1.left" timestamp="1598381003187">
+    <state width="1877" height="303" key="GridCell.Tab.1.left" timestamp="1600697459188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="344" key="GridCell.Tab.1.left/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1593741572297" />
     <state width="1237" height="334" key="GridCell.Tab.1.left/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1593668821562" />
-    <state width="1877" height="303" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598381003187" />
+    <state width="1877" height="303" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600697459188" />
     <state width="1237" height="303" key="GridCell.Tab.1.left/0.0.1920.1040/-1280.65.1280.984@-1280.65.1280.984" timestamp="1595469308366" />
     <state width="1877" height="303" key="GridCell.Tab.1.left/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1595471041844" />
     <state width="1877" height="396" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291586" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594953023617" />
-    <state width="1877" height="303" key="GridCell.Tab.1.right" timestamp="1598381003204">
+    <state width="1877" height="303" key="GridCell.Tab.1.right" timestamp="1600697459188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="344" key="GridCell.Tab.1.right/-1680.0.1680.1010/0.0.1280.984@-1680.0.1680.1010" timestamp="1593741572297" />
     <state width="1237" height="334" key="GridCell.Tab.1.right/-1680.0.1680.1010/0.0.1280.984@0.0.1280.984" timestamp="1593668821562" />
-    <state width="1877" height="303" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598381003204" />
+    <state width="1877" height="303" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600697459188" />
     <state width="1237" height="303" key="GridCell.Tab.1.right/0.0.1920.1040/-1280.65.1280.984@-1280.65.1280.984" timestamp="1595469308366" />
     <state width="1877" height="303" key="GridCell.Tab.1.right/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1595471041844" />
     <state width="1877" height="396" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-116.1920.1160@-1920.-116.1920.1160" timestamp="1592722291586" />
@@ -416,6 +417,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Study_Algorithm$_na_1.coverage" NAME="[na]1 Coverage Results" MODIFIED="1600697459167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study_Algorithm$sam1984_sol.coverage" NAME="sam1984_sol Coverage Results" MODIFIED="1594949989167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
     <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$sam4864.coverage" NAME="sam4864 Coverage Results" MODIFIED="1588937659169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
     <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$sam4861.coverage" NAME="sam4861 Coverage Results" MODIFIED="1589014708226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
@@ -454,6 +456,7 @@
     <SUITE FILE_PATH="coverage/Study_Algorithm$sam9778.coverage" NAME="sam9778 Coverage Results" MODIFIED="1591249237951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
     <SUITE FILE_PATH="coverage/Algorithm_training$DB_example.coverage" NAME="DB_example Coverage Results" MODIFIED="1588500201924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithm_Study_Python_$sam4835.coverage" NAME="sam4835 Coverage Results" MODIFIED="1589179583165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
+    <SUITE FILE_PATH="coverage/Study_Algorithm$_na_2.coverage" NAME="[na]2 Coverage Results" MODIFIED="1600698023849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study_Algorithm$printer_sol.coverage" NAME="printer_sol Coverage Results" MODIFIED="1593066166032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programmers" />
     <SUITE FILE_PATH="coverage/Algorithm_training$sam4831.coverage" NAME="sam4831 Coverage Results" MODIFIED="1588517487729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study_Algorithm$find_size.coverage" NAME="find_size Coverage Results" MODIFIED="1593075648534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -471,6 +474,7 @@
     <SUITE FILE_PATH="coverage/Algorithm_training$boj_input_output__1_.coverage" NAME="boj_input_output (1) Coverage Results" MODIFIED="1588501225237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study_Algorithm$Max_NUM_sol.coverage" NAME="Max_NUM_sol Coverage Results" MODIFIED="1592632293524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programmers" />
     <SUITE FILE_PATH="coverage/Study_Algorithm$sam2001_sol.coverage" NAME="sam2001_sol Coverage Results" MODIFIED="1594776544219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samsung Software expert" />
+    <SUITE FILE_PATH="coverage/Study_Algorithm$_na_3.coverage" NAME="[na]3 Coverage Results" MODIFIED="1600698345103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study_Algorithm$word_convert_sol.coverage" NAME="word_convert_sol Coverage Results" MODIFIED="1595469729428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programmers" />
     <SUITE FILE_PATH="coverage/Algorithm_training$sam5185.coverage" NAME="sam5185 Coverage Results" MODIFIED="1588522425641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithm_training$sam1210.coverage" NAME="sam4828 Coverage Results" MODIFIED="1588514901876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
