@@ -11,6 +11,3 @@ ori = []
 
 for _ in range(N):
     ori.append(list(map(int, input().split())))
-
-while True
-    if 
