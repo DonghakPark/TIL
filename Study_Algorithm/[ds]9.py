@@ -19,3 +19,6 @@ while True:
     if ori[x][y] == 0:
         ori[x][y] == 2 # 청소는 2
 
+    nx = x + dx[d]
+    ny = y + dy[d]
+
