@@ -124,3 +124,8 @@
 #
 #
 # print(time)
+
+from collections import deque
+INF = 1e9 #10억을 의미한다
+
+
