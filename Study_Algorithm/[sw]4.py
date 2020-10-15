@@ -1,58 +1,51 @@
-# 등산로 조성 문제
+#등산로 조성 문제
 
-T = int(input())
-dx = [-1,1,0,0]
-dy = [0,0,-1,1]
-
-
-def dfs(x, y, N, K, high_int):
-    now_x = x
-    now_y = y
-
-    length = 0
+def dfs(y,x,cnt,k,n):
+    global res
+    if (res < cnt + 1):
+        res = cnt + 1
+    visited[y][x] = 1
+    dx = [0,1,0,-1]
+    dy = [1,0,-1,0]
 
     for i in range(4):
-        nx = now_x + dx[]
-        ny = now_y + dy[]
+        ny = y + dy[i]
+        nx = x + dx[i]
+        if ( ny >=0 and ny <n and nx >= 0 and nx <n):
+            if(visited[ny][nx] == 0):
+                if(arr[ny][nx] < arr[y][x]):
+                    dfs(ny,nx,cnt+1,k,n)
+                elif(arr[ny][nx] - k < arr[y][x]):
+                    pre = arr[ny][nx]
 
-        if 0 <= nx and nx < N and 0 <= ny and ny < N:
-            if arr[nx][ny] < high_int:
-                dfs(nx,ny,N,K,arr[nx][ny])
+                    arr[ny][nx] = arr[y][x] - 1
+                    dfs(ny,nx,cnt+1,0,n)
 
-            for k in range(1,K+1):
-                if arr[nx][ny]-k < high_int:
-                    dfs(nx,ny,N,K-k, arr[nx][ny])
-                    length +=1
+                    arr[ny][nx] = pre
+    visited[y][x] = 0
+
+T = int(input())
 
 for test_case in range(1, T+1):
+    n, k = map(int, input().split())
 
-    N, K = map(int, input().split())
     arr = []
-    for _ in range(N):
+
+    for i in range(n):
         arr.append(list(map(int, input().split())))
 
-    ## 입력 완료
-
-    high = []
-    high_int = 0
-
-    for element in arr:
-        for i in element:
-            if i >= high_int:
-                high_int = i
-
-    for i in range(N):
-        for j in range(N):
-            if arr[i][j] == high_int:
-                high.append([i,j])
-    result = 0
-
-    for x,y in high:
-        temp = dfs(x,y,N,K,0,high_int)
-        if temp >= result:
-            result = temp
-
-    print("#{} {}".format(test_case, result))
-
-
-
+    res = 0
+    maxV = 0
+    visited = [ [0] * n for i in range(n)]
+    for i in range(n):
+        for j in range(n):
+                if (maxV < arr[i][j]):
+                    maxV = max(maxV, arr[i][j])
+    v = []
+    for i in range(n):
+        for j in range(n):
+                if(arr[i][j] == maxV):
+                    v.append([i,j])
+    for i in range(len(v)):
+        dfs(v[i][0], v[i][1], 0, k, n)
+    print("#{} {}".format(test_case, res))
