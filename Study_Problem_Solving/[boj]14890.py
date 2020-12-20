@@ -3,6 +3,10 @@
 author : donghak park
 contact: donghark03@naver.com
 """
+def solution():
+    answer = 0
+
+    return answer
 
 if __name__=="__main__":
     N, L = map(int, input().split())
