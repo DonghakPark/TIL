@@ -1,5 +1,7 @@
 """
 모험가 길드
+author : donghak park
+contact : donghark03@naver.com
 """
 N = int(input())
 arr = list(map(int, input().split()))
@@ -40,4 +42,3 @@ print(answer)
 #         result += 1
 #         count = 0
 # print(result)
-

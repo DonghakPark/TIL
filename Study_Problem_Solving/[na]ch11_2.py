@@ -1,5 +1,7 @@
 """
 곱하기 혹은 더하기
+author : donghak park
+contact : donghark03@naver.com
 """
 S = list(map(int,input()))
 

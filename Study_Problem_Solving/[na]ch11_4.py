@@ -1,5 +1,7 @@
 """
 만들 수 없는 금액 문제
+author : donghak park
+contact : donghark03@naver.com
 """
 from itertools import combinations
 

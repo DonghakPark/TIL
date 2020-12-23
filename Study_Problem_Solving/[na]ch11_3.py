@@ -1,5 +1,7 @@
 """
 문자열 뒤집기 문제
+author : donghak park
+contact : donghark03@naver.com
 """
 S = list(input())
 A = []
