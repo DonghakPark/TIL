@@ -3,3 +3,5 @@
 author : donghak park
 contact : donghark03@naver.com
 """
+
+N, X = map(int, input().split())
