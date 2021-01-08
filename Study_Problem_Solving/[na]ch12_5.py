@@ -10,7 +10,6 @@ K = int(input())
 board = [[0] * N for _ in range(N)]
 
 for _ in range(K):
-    # 첫번째는 행, 두번째는 열
     r, c = map(int, input().split())
     board[r-1][c-1] = 2
 
@@ -19,8 +18,6 @@ snake = []
 
 for _ in range(L):
     snake.append(input().split())
-
-#### 입력부 끝 #####
 
 x,y = 0, 0
 
