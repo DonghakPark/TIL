@@ -1,7 +1,7 @@
 # Dankook_Univ.
 Data on subjects taken by Dankook University from 2015 to 2020
 
-# Course Taken List ( SoftWare-Related )
+# Course Taken List ( Software-Related )
 
 <div>
 
