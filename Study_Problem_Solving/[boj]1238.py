@@ -33,6 +33,7 @@ for i in range(M):
     start, end, cost = map(int, input().split())
     graph[start].append([cost,end])
 
+print(graph)
 answer = [0] * (N+1)
 
 for i in range(1,N+1):
