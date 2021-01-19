@@ -1,16 +1,18 @@
 
-# Algorithm-Study_Python
-- Solving Algorithm Problem using Python3
- 
- | 문제 출처 |
-|--|
-| 2018 카카오 블라인드 모집|
-| 2019 카카오 블라인드 모집|
-| 2019 카카오 개발자 겨울 인턴쉽 |
-| 삼성 소프트웨어 Expert |
-| 백준 알고리즘 |
+# Study_Problem_solving
 
-- 위와 같은 분류의 알고리즘 문제 학습 중
+- Solving Algorithm Problem using Python3
+
+## COMMIT MESSAGE
+- 풀이 날짜를 기준으로 기록
+
+## 문제 풀처
+ | 문제 출처 |
+ |--|
+ | 백준 알고리즘|
+ | 프로그래머스|
+ | 삼성 소프트웨어 Expert |
+ | 이것이 취업을 위한 코딩테스트다. |
 
 ## dependency
 > Python3
