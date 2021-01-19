@@ -1,10 +1,6 @@
 # TIL
 - 배우고 익힌 것을 저장하는 Repository
 
-## Today I Learned
-- Study about CS
-- Focusing on Algorithm
-
 ## Directory
 |#|폴더명|내용|
 |--|--|--|
