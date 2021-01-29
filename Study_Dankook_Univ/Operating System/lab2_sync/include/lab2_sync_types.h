@@ -57,7 +57,7 @@ typedef struct thread_arg{
 
 /* 
  * lab2_bst.c related functions 
- * TODO
+ *
  *  You need to implement these functions. 
  */
 int lab2_node_print_inorder(lab2_tree *tree);

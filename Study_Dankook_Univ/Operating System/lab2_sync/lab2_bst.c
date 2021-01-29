@@ -46,7 +46,6 @@ lab2_node *global_root; //delete_fg에서 사용할 글로벌 root
 
 /*
 
- * TODO
 
  *  Implement funtction which traverse BST in in-order
 
@@ -101,7 +100,6 @@ int lab2_node_print_inorder(lab2_tree *tree) {
 
 /*
 
- * TODO
 
  *  Implement function which creates struct lab2_tree
 
@@ -128,7 +126,6 @@ lab2_tree *lab2_tree_create() {
 
 /*
 
- * TODO
 
  *  Implement function which creates struct lab2_node
 
@@ -163,7 +160,6 @@ lab2_node * lab2_node_create(int key) {
 
 /*
 
- * TODO
 
  *  Implement a function which insert nodes from the BST.
 
@@ -261,7 +257,6 @@ int lab2_node_insert(lab2_tree *tree, lab2_node *new_node){
 
 /*
 
- * TODO
 
  *  Implement a function which insert nodes from the BST in fine-garined manner.
 
@@ -360,7 +355,6 @@ int lab2_node_insert_fg(lab2_tree *tree, lab2_node *new_node){
 
 /*
 
- * TODO
 
  *  Implement a function which insert nodes from the BST in coarse-garined manner.
 
@@ -463,7 +457,7 @@ int lab2_node_insert_cg(lab2_tree *tree, lab2_node *new_node){
 
 /*
 
- * TODO
+ *
 
  *  Implement a function which remove nodes from the BST.
 
@@ -610,7 +604,6 @@ int lab2_node_remove(lab2_tree *tree, int key) {
 
 /*
 
- * TODO
 
  *  Implement a function which remove nodes from the BST in fine-grained manner.
 
@@ -1407,7 +1400,7 @@ lab2_node *get_inorder_predecessor(lab2_node *node)
 
 /*
 
- * TODO
+ *
 
  *  Implement a function which remove nodes from the BST in coarse-grained manner.
 
@@ -1556,7 +1549,7 @@ int lab2_node_remove_cg(lab2_tree *tree, int key) {
 
 /*
 
- * TODO
+ *
 
  *  Implement function which delete struct lab2_tree
 
@@ -1583,7 +1576,7 @@ void lab2_tree_delete(lab2_tree *tree) {
 
 /*
 
- * TODO
+ *
 
  *  Implement function which delete struct lab2_node
 
