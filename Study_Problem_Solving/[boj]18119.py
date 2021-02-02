@@ -30,6 +30,7 @@ print(dp[0][N-1][N-1] + dp[1][N-1][N-1] + dp[2][N-1][N-1])
 
 """
 또 다른 풀이 ( 시간 초과남 )
+
 def search(x, y, direct):
     global answer
 
