@@ -29,7 +29,9 @@ print(dp[0][N-1][N-1] + dp[1][N-1][N-1] + dp[2][N-1][N-1])
 
 
 """
+
 또 다른 풀이 ( 시간 초과남 )
+---> 재귀함수를 이용한 풀이, BFS를 이용한 풀이도 가능
 
 def search(x, y, direct):
     global answer
@@ -52,4 +54,5 @@ def search(x, y, direct):
         if x + 1 < N:
             if arr[x + 1][y] == 0:
                 search(x+1, y, 1)
+                
 """
