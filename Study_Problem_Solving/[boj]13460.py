@@ -3,6 +3,7 @@
 author : donghak park
 contact: donghark03@naver.com
 TODO : 미해결 --> 다시 풀기
+--> 삼성 문제 ( 천천히 해결해 보기 )
 """
 from collections import deque
 
