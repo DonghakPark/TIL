@@ -12,11 +12,17 @@ public class VIPCustomer extends Customer {
         saleRatio = 0.1;
     }
 
-    public VIPCustomer(int customerID, String customerName){
+    public VIPCustomer(int customerID, String customerName, int agentID){
         this.customerID = customerID;
         this.customerName = customerName;
         customerGrade = "VIP";
         bonusRatio = 0.05;
+        this.agentID = getAgentID();
+    }
+
+    public int calcPrice(int price){
+        bonusPoint += price * bonusRatio;
+        return price - (int)(price * saleRatio);
     }
 
     public int getAgentID() {
