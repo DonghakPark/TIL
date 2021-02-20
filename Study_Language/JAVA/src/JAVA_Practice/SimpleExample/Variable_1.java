@@ -1,4 +1,4 @@
-package JAVA_Practice;
+package JAVA_Practice.SimpleExample;
 
 public class Variable_1 {
     public static void main(String args[]) {
