@@ -1,0 +1,40 @@
+"""
+Odd Even Linked List Problem
+Author : DongHak Park
+Contact: donghark03@naver.com
+"""
+
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+
+class Solution:
+    def oddEvenList(self, head: ListNode) -> ListNode:
+        if head is None:
+            return head
+
+        odd = head
+        even = head.next
+        even_head = head.next
+
+        while even and even.next:
+            odd.next, even.next = odd.next.next, even.next.next
+            odd, even = odd.next, even.next
+
+        odd.next = even_head
+
+        return head
+
+
+if __name__=="__main__":
+    solution = Solution()
+    head = ListNode(1,ListNode(2,ListNode(3,ListNode(4,ListNode(5,None)))))
+    ret = solution.oddEvenList(head)
+
+    now = ret
+    while now is not None:
+        print(now.val, end = " ")
+        now = now.next
