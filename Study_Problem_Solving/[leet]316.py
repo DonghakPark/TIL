@@ -3,18 +3,20 @@ Remove Duplicate Letters
 Author : DongHak Park
 Contact: donghark03@naver.com
 """
+import collections
 
 class Solution:
     def removeDuplicateLetters(self, s: str) -> str:
-        stack = []
+        counter, seen, stack = collections.Counter(s), set(), []
+        for char in s:
+            counter[char] -= 1
+            if char in seen:
+                continue
 
-        for i in range(len(s)):
-            char = s[i]
-            flag = True
-            for j in range(0, i):
-                if s[j] < char:
-                   flag = False
-
+            while stack and char < stack[-1] and counter[stack[-1]] > 0:
+                seen.remove(stack.pop())
+            stack.append(char)
+            seen.add(char)
 
         return "".join(stack)
 
