@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Problem4</title>
+        <script type="text/javascript" src="data.js"></script>
+    </head>
+    
+    <body>
+        <form method="post">
+            <div>
+                <label for="name">학생이름 : </label>
+                <input type="text" id="name" name="user_name" />
+            </div>
+            <div>
+                <label for="pw">패스워드 : </label>
+                <input type="password" id="pw" name="user_pw" />
+            </div>
+
+            <hr>
+            <div class="button">
+                <button type="login" id="login">로그인</button>
+                <button type="again" onclick="window.location.reload()">다시하기</button>
+            </div>
+            <hr>
+        </form>
+        <script>
+            document.getElementById('login').onclick = function() {
+                var ID = document.getElementById('name').value;
+                var pass = document.getElementById('pw').value;
+                for(i=0; i<5; i++){
+                    if (ID === stu[i].name && Number(pass) === stu[i].pw) {
+                        alert("로그인 성공!");
+                        return
+                    }
+                }
+                alert("로그인 실패!");
+            }
+        </script>
+    </body>
+</html>
