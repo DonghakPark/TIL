@@ -1,3 +1,5 @@
+#함수형으로 작성해 보기
+
 def check_end():
     global Arr_people
 
@@ -6,11 +8,13 @@ def check_end():
             return False
     return True
 
-N = int(input())
+
 Arr_people = {}
 Arr_item = {}
 final_item = {}
 final_people = {}
+
+N = int(input())
 
 for _ in range(N):
     item_name, order, item_number = map(str, input().split())
@@ -39,7 +43,8 @@ while True:
             for element in final_item[key]:
                 for i in range(len(Arr_item[key][0])):
                     if element == Arr_item[key][0][i]:
-                        temp.append([i,element])
+                        temp.append([i, element])
+
             temp.sort(reverse=True)
             while len(final_item[key]) > Arr_item[key][1]:
                 _, element = temp.pop(0)
@@ -48,6 +53,7 @@ while True:
 
             for element in final_item[key]:
                 final_people[element] = True
+
 for key in final_item.keys():
     final_item[key].sort()
     print(key + "_" + "".join(final_item[key]))
