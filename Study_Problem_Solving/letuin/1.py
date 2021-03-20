@@ -1,4 +1,4 @@
-# sol
+# sol - Complete
 
 N, M = map(int, input().split())
 cost_4 = []
