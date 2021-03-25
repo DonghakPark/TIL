@@ -210,3 +210,8 @@ SELECT CONCAT(str1, str2, str3, ...);
 SELECT ROUND|TRUNC (val, digit)
 FROM table
 ```
+
+SQL이란?
+Structured Query Language의 약자로 데이터 베이스가 이해할 수 있는 구조화된 질의 언어입니다.
+쉽게 말해서 우리가 영어를 공부 할 때 문법에 맞게 말을 해야 상대방이 알아 듣는 것 처럼 SQL도 문법에 맞게 작성해야 데이터베이스가 이해를 할 수 있습니다.
+대표적인 관계형 DB로는 MySQL, Oracle, MariaDB 등이 있습니다.

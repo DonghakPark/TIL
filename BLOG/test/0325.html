@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function f1 (obj){
+            obj.src="C:\Users\User\Desktop\주연 SW\html\exam03\jeju.jpg";
+        }
+        function f2 (obj){
+            obj.src="1.jpg";
+        }
+        function f3 (obj){
+            obj.src="2.jpg";
+        }
+        function f4 (mydiv){
+            mydiv.style.background="lightgray";
+        }
+    </script>
+    <h2><img src="1.jpg" width="50" height="50" onmouseover="f3(this);" onmouseout="f2(this);"/>여행 버킷 리스트!</h2><hr>
+   <ul>
+        <li>제주도<img src="C:\Users\User\Desktop\주연 SW\html\exam03\jeju.jpg" width="50" height="50" onmouseover="f1(this);"/></li>
+        <li>하와이</li><div id="a" onmouseover="f4(this)"/>
+        <li>그랜트캐년</li>
+   </ul><br>
+   <input type="text" max="20">
+   <fieldset>
+     <legend>추천 여행지리스트</legend>
+         <ol></ol>
+     </legend>
+   </fieldset>
+</body>
+</html>
