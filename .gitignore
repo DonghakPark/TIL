@@ -902,6 +902,14 @@ ASALocalRun/
 # MSBuild Binary and Structured Log
 *.binlog
 
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
 
