@@ -2,139 +2,107 @@
 구슬 탈출 2 문제
 author : donghak park
 contact: donghark03@naver.com
-TODO : 미해결 --> 다시 풀기
---> 삼성 문제 ( 천천히 해결해 보기 )
 """
 from collections import deque
+import copy
 
-dx = [1, -1, 0, 0]
-dy = [0, 0, -1, 1]
-# 아래, 위, 왼쪽, 오른쪽
-
-
-def move(direct, board):
-
-    blue_goal = False
-    red_goal = False
-
-    # 아래로
-    if direct == 0:
-
-        for i in range(N):
-            for j in range(M):
-
-                if board[i][j] == "B" or board[i][j] == "R":
-
-                    nx, ny = i + dx[direct], j + dy[direct]
-
-                    if 0 <= nx < N and 0 <= ny < M:
-
-                        if board[nx][ny] == ".":
-                            board[nx][ny] = board[i][j]
-                            board[i][j] = "."
-
-                        elif board[nx][ny] == "O":
-
-                            if board[i][j] == "R":
-                                red_goal = True
-
-                            elif board[i][j] == "B":
-                                blue_goal = True
-
-    # 위로
-    elif direct == 1:
-
-        for i in range(N-1,-1,-1):
-            for j in range(M):
-
-                if board[i][j] == "B" or board[i][j] == "R":
-
-                    nx, ny = i + dx[direct], j + dy[direct]
-
-                    if 0 <= nx < N and 0 <= ny < M:
-
-                        if board[nx][ny] == ".":
-                            board[nx][ny] = board[i][j]
-                            board[i][j] = "."
-
-                        elif board[nx][ny] == "O":
-
-                            if board[i][j] == "R":
-                                red_goal = True
-
-                            elif board[i][j] == "B":
-                                blue_goal = True
-
-    # 왼쪽으로
-    elif direct == 2:
-
-        for j in range(M-1, -1, -1):
-            for i in range(N):
-
-                if board[i][j] == "B" or board[i][j] == "R":
-
-                    nx, ny = i + dx[direct], j + dy[direct]
-
-                    if 0 <= nx < N and 0 <= ny < M:
-
-                        if board[nx][ny] == ".":
-                            board[nx][ny] = board[i][j]
-                            board[i][j] = "."
-
-                        elif board[nx][ny] == "O":
-
-                            if board[i][j] == "R":
-                                red_goal = True
-
-                            elif board[i][j] == "B":
-                                blue_goal = True
-
-    # 오른쪽으로
-    else:
-        for j in range(M):
-            for i in range(N):
-
-                if board[i][j] == "B" or board[i][j] == "R":
-
-                    nx, ny = i + dx[direct], j + dy[direct]
-
-                    if 0 <= nx < N and 0 <= ny < M:
-
-                        if board[nx][ny] == ".":
-                            board[nx][ny] = board[i][j]
-                            board[i][j] = "."
-
-                        elif board[nx][ny] == "O":
-
-                            if board[i][j] == "R":
-                                red_goal = True
-
-                            elif board[i][j] == "B":
-                                blue_goal = True
-
-    return board, red_goal, blue_goal
+dx = [0, 0, -1, 1]
+dy = [1, -1, 0, 0]
 
 
-def BFS():
+def move(d, arr, board):
+    now_x, now_y = arr
+
+    while True:
+        nx, ny = now_x + dx[d], now_y + dy[d]
+
+        if board[nx][ny] == ".":
+            now_x, now_y = nx, ny
+
+        elif board[nx][ny] == "O":
+            board[arr[0]][arr[1]] = '.'
+            return now_x, now_y, True, board
+
+        else:
+            board[now_x][now_y] = board[arr[0]][arr[1]]
+            if now_x != arr[0] or now_y != arr[1]:
+                board[arr[0]][arr[1]] = '.'
+            return now_x, now_y, False, board
+
+
+def solution():
+    global answer
+
     Q = deque()
-    for i in range(3,-1,-1):
-        Q.append([1, i, board_ori])
+    for i in range(4):
+        # direct, time
+        new_board = copy.deepcopy(board)
+        Q.append([i, 1, red_ball, blue_ball, new_board])
 
     while Q:
-        count, dire, arr = Q.popleft()
-        print(count, dire, arr)
-        arr_new, red_check, blue_check = move(dire, arr)
 
-        if red_check == True and blue_check == False and count <= 10:
-            return count
+        direct, time, red_ball_now, blue_ball_now, now_board = Q.popleft()
 
-        elif blue_check == False and count <= 10:
-            for i in range(4):
-                Q.append([count + 1, i,arr_new])
+        if time >= 11:
+            return
 
-    return -1
+        if direct == 0:
+            if red_ball_now[1] > blue_ball_now[1]:
+                red_nx, red_ny, red_flag, new_board = move(direct, red_ball_now, now_board)
+                blue_nx, blue_ny, blue_flag, new_board = move(direct, blue_ball_now, now_board)
+            else:
+                blue_nx, blue_ny, blue_flag, new_board = move(direct, blue_ball_now, now_board)
+                red_nx, red_ny, red_flag, new_board = move(direct, red_ball_now, now_board)
+        elif direct == 1:
+            if red_ball_now[1] < blue_ball_now[1]:
+                red_nx, red_ny, red_flag, new_board = move(direct, red_ball_now, now_board)
+                blue_nx, blue_ny, blue_flag, new_board = move(direct, blue_ball_now, now_board)
+            else:
+                blue_nx, blue_ny, blue_flag, new_board = move(direct, blue_ball_now, now_board)
+                red_nx, red_ny, red_flag, new_board = move(direct, red_ball_now, now_board)
+        elif direct == 2:
+            if red_ball_now[0] < blue_ball_now[0]:
+                red_nx, red_ny, red_flag, new_board = move(direct, red_ball_now, now_board)
+                blue_nx, blue_ny, blue_flag, new_board = move(direct, blue_ball_now, now_board)
+            else:
+                blue_nx, blue_ny, blue_flag, new_board = move(direct, blue_ball_now, now_board)
+                red_nx, red_ny, red_flag, new_board = move(direct, red_ball_now, now_board)
+        else:
+            if red_ball_now[0] > blue_ball_now[0]:
+                red_nx, red_ny, red_flag, new_board = move(direct, red_ball_now, now_board)
+                blue_nx, blue_ny, blue_flag, new_board = move(direct, blue_ball_now, now_board)
+            else:
+                blue_nx, blue_ny, blue_flag, new_board = move(direct, blue_ball_now, now_board)
+                red_nx, red_ny, red_flag, new_board = move(direct, red_ball_now, now_board)
+
+        if (blue_flag is False) and (red_flag is False):
+            if [red_nx, red_ny] != red_ball_now or [blue_nx, blue_ny] != blue_ball_now:
+                for i in range(4):
+                    next_board = copy.deepcopy(new_board)
+                    Q.append([i, time + 1, [red_nx, red_ny], [blue_nx, blue_ny], next_board])
+
+        elif (red_flag is True) and (blue_flag is False):
+            answer = time
+            return
+
 
 N, M = map(int, input().split())
-board_ori = [list(input()) for _ in range(N)]
-result = BFS()
-print(result)
+board = []
+
+red_ball = [0, 0]
+blue_ball = [0, 0]
+
+for col in range(N):
+    S = list(input())
+
+    for i in range(len(S)):
+        if S[i] == "R":
+            red_ball = [col, i]
+        elif S[i] == "B":
+            blue_ball = [col, i]
+    board.append(S)
+
+answer = -1
+solution()
+
+print(answer)
