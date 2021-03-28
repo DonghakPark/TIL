@@ -4,6 +4,8 @@ Author : DongHak Park
 Contact: donghark03@naver.com
 """
 from collections import defaultdict, deque
+
+
 def topology_sort():
     DP_table = [0] * (N+1)
 
@@ -24,8 +26,9 @@ def topology_sort():
             if in_degree[i] == 0:
                 q.append(i)
 
-
     return DP_table[target]
+
+
 T = int(input())
 
 for test_case in range(T):

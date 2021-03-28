@@ -69,7 +69,7 @@
 # for element in range(1, 10):
 #     print("%d * %d = %d" %(T, element, T*element))
 
-#달력 문제
+# 달력 문제
 # x,y = map(int, input().split())
 # m31 = [3,5,7,10,12]
 # m30 = [4,6,9,11]
@@ -135,6 +135,6 @@
 # for i in range(2, N+1):
 #     print(' ' * (N - i) + "*" * (2 * i - 1))
 
-table = [(1,1,1), (1,1,1), (1,1,1)]
-s =sum(table[a][b] for a in range(3) for b in range(3))
+table = [(1, 1, 1), (1, 1, 1), (1, 1, 1)]
+s = sum(table[a][b] for a in range(3) for b in range(3))
 print(s)

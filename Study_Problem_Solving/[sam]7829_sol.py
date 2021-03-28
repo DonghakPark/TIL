@@ -21,7 +21,7 @@ for test_case in range(1, T+1):
         N = int(input())
         A.append(N)
     A.sort()
-    if Num%2 == 0:
+    if Num % 2 == 0:
         ans = A[0]*A[-1]
     else:
         ans = A[A.length()/2+1]**2
