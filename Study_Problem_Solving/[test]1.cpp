@@ -1,5 +1,6 @@
 #include <iostream>
 #include <algorithm>
+#include <cstdlib>
 
 using namespace std;
 
@@ -15,5 +16,11 @@ int main(void) {
     for (int i = 0; i <10; i ++){
         cout << arr[i] << endl;
     }
+    int a = 10;
+    int b = 15;
+    cout << "smaller num is " << min(a,b) << endl;
+
+    cout << abs(-123124231423423) << endl;
+
     return 0;
 }
