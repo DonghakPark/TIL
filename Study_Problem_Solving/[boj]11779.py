@@ -6,8 +6,8 @@ contact: donghark03@naver.com
 
 
 def dijkstra(s):
-    distance = [INF] * (N+1)
-    distance_path = [[] for _ in range(N+1)]
+    distance = [INF] * (N + 1)
+    distance_path = [[] for _ in range(N + 1)]
     q = [[0, s, [s]]]
     distance[s] = 0
 
@@ -24,12 +24,14 @@ def dijkstra(s):
 
     return distance, distance_path
 
+
 import sys, heapq
+
 INF = sys.maxsize
 
 N = int(input())
 M = int(input())
-Q = [[] for _ in range(N+1)]
+Q = [[] for _ in range(N + 1)]
 
 for _ in range(M):
     start, end, cost = map(int, input().split())
@@ -42,4 +44,4 @@ answer, answer_path = dijkstra(S)
 print(answer[E])
 print(len(answer_path[E]))
 for element in answer_path[E]:
-    print(element, end = " ")
+    print(element, end=" ")
