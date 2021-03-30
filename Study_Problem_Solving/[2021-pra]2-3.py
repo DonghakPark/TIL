@@ -67,3 +67,6 @@ if __name__=="__main__":
             print("{}번 Test_case 정답입니다.".format(i))
         else:
             print("{}번 Test_case 틀렸습니다.".format(i))
+
+
+
