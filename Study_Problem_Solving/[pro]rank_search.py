@@ -1,18 +1,6 @@
 from collections import defaultdict
 
 
-def binary_search(start, end, target, arr):
-    while start < end:
-        mid = (start + end) // 2
-
-        if arr[mid] < target:
-            start = mid + 1
-        else:
-            end = mid
-
-    return start
-
-
 def solution(info, query):
     answer = []
 
@@ -51,16 +39,17 @@ def solution(info, query):
         candidate = tree[lang][job][exp][food]
         point = int(point)
 
-        print(candidate)
-
-        index = binary_search(0, len(candidate) - 1, point, candidate)
-        print(index)
-        if index - 1 >= len(candidate):
-            answer.append(0)
+        if len(candidate) > 0:
+            start, end = 0, len(candidate)
+            while end > start:
+                mid = (start + end) // 2
+                if candidate[mid] >= point:
+                    end = mid
+                else:
+                    start = mid + 1
+            answer.append(len(candidate) - start)
         else:
-            count = len(candidate) - (index -1)
-            answer.append(count)
-
+            answer.append(0)
     return answer
 
 if __name__=="__main__":
