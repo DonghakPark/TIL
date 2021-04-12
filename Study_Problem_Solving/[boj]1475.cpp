@@ -4,35 +4,24 @@
 #include <cmath>
 
 using namespace std;
+int digit[10];
 
-int main(){
-    string target;
-    cin >> target;
-    float need[10] = {0};
+int main(void){
+    string N;
+    cin >> N;
 
-    for(int i =0; i <target.size(); i++){
-        cout << target[i] << " ";
-        if (target[i] == '6' or target[i] == '9'){
-            need[6] += 0.5;
-        }
-        else{
-            int index = (int)target[i];
-            need[index] += 1;
-        }
+    int len = N.length();
+    for (int i = 0; i < len;  i++){
+        digit[N[i] - '0']++;
     }
-    cout << endl;
-    float temp = 0;
+    int six_nine = (digit[6] + digit[9] + 1) / 2;
+    digit[6] = six_nine;
+    digit[9] = six_nine;
 
-    for (int i =0; i < 10; i ++){
-        cout << need[i] << " ";
-        if (temp < ceil(need[i])){
-            temp = ceil(need[i]);
-        }
+    int m =0;
+    for (int i =0; i <10; i++){
+        if (digit[m] < digit[i]) m =i;
     }
-    cout << endl;
-    int answer = int(temp);
-
-    cout << answer;
-
+    cout << digit[m] << endl;
     return 0;
 }
