@@ -4,6 +4,7 @@ Author : DongHak Park
 Contact: donghark03@naver.com
 """
 from collections import defaultdict
+import heapq
 
 N, M = map(int, input().split())
 
@@ -17,20 +18,25 @@ for _ in range(M):
     x, y = map(int, input().split())
     move[x] = y
 
-dp_table = [1e9] * 101
-for i in range(2,8):
-    dp_table[i] = 1
+Q = []
+heapq.heappush(Q, [0,1])
+answer = 1e9
+visited = [0] * 101
+visited[1] = 1
 
-for i in range(2,101):
+while Q:
+    now_count, now = heapq.heappop(Q)
 
-    if i in move.keys():
-        dp_table[move[i]] = dp_table[i]
-
-
-    else:
-        for j in range(1,7):
-            if i+j > 100:
-                break
-            else:
-                dp_table[i+j] = min(dp_table[i+j], dp_table[i] + 1)
-print(dp_table[100])
+    if now == 100:
+        answer = min(now_count, answer)
+        break
+    for i in range(1,7):
+        if now + i < 101:
+            if visited[now+i] == 0:
+                if now+i in move.keys():
+                    heapq.heappush(Q, [now_count+1, move[now+i]])
+                    visited[move[now+i]] = 1
+                else:
+                    heapq.heappush(Q, [now_count + 1, now + i])
+                    visited[now+i] = 1
+print(answer)
