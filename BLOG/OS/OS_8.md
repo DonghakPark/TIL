@@ -49,3 +49,47 @@ Execution time binding (Run Time Binding)
 - 하드웨어적인 지원이 필요
 
 ![image](https://user-images.githubusercontent.com/44962038/119782567-4d732480-bf07-11eb-9d9f-dd83c2fd9277.png)_KOCW 강의 자료에서 가져온 사진입니다._
+
+---
+
+### Memory Management Unit (MMU)
+
+MMU (Memory Management Unit)
+
+- Logical address를 Physical Address로 매핑해 주는 Hardware device
+
+MMU Scheme
+
+- 사용자 프로세스가 CPU에서 수행되며 생성해주는 모든 주소값에 대해 Base Register (= Relocation Register)의 값을 더한다.
+
+User Program
+
+- Logical Address만을 다룬다.
+
+- 실제 Physical Address를 볼 수 없으며 알 필요가 없다.
+
+#### Hardware Support for Address Translation
+
+운영체제 및 사용자 프로세스 간의 메모리 보호를 위해 사용하는 레지스터
+
+- Relocation Register (Base Register) : 접근할 수 있는 물리적 메모리 주소의 최소값
+
+- Limit Register : 논리적 주소의 범위
+
+---
+
+### 용어 정리
+
+#### Dynamic Loading
+
+프로제스 전체를 메모리에 미리 다 올리는 것이 아니라 해당 루틴이 불려질 때 메모리에 load하는 것
+
+Memory Utilization의 향상
+
+가끔씩 사용되는 많은 양의 코드의 경우 유용
+
+운영체제의 특별한 지원 없이 프로그램 자체에서 구현 가능 (OS는 라이브러리를 통해 지원 가능)
+
+Loading은 메모리에 데이터를 올리는 것을 의미함
+
+####
