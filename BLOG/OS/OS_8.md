@@ -355,3 +355,133 @@ page table을 위한 공간을 줄이기 위해 사용
 - 페이지 테이블 자체를 페이지로 구성
 
 - 사용되지 않는 주소 공간에 대한 outer page table의 엔트리 값은 NULL (대응하는 inner page table이 없음)
+
+---
+
+### Multilevel Paging and Performance
+
+Address Space가 더 커지면 다단계 페이지 테이블 필요
+
+각 단계의 페이지 테이블이 메모리에 존재하므로 Logical address의 physical address 변환에 더 많은 메모리 접근 필요
+
+TLB를 통해 메모리 접근 시간을 줄일 수 있음
+
+4단계 페이지 테이블을 사용하는 경우
+
+- 메모리 접근 시간이 100ns, TLB 접근 시간이 20ns, hit ratio가 98%인 경우
+
+  - effective memory access time = 0.98 _ 120 + 0.02 _ 520 --> 128ns
+
+  - 결과적으로 주소변환을 위해 28ns만 소요
+
+#### Memory Protection
+
+Page Table의 각 entry마다 아래의 bit를 둔다.
+
+- Protection bit
+
+  - Page에 대한 접근 권한 (read/write/read-only)
+
+- Valid-invalid bit
+
+  - valid는 해당 주소의 frame에 그 프로세스를 구성하는 유효한 내용이 있음을 뜻함 (접근 허용)
+
+  - invalid는 해당 주소의 frame에 유효한 내용이 없음을 뜻함 (접근 불허)
+
+#### Inverted Page Table
+
+Page Table이 매우 큰 이유
+
+- 모든 process 별로 그 logical address에 대응하는 모든 page에 대해 page table entry가 존대
+
+- 대응하는 page가 메모리에 있든 아니든 간에 page table에는 entry로 존재
+
+Inverted Page table
+
+- Page frame 하나당 page table에 하나의 entry를 둔 것 ( system - wide )
+
+- 각 page table entry는 각각의 물리적 메모리의 page frame이 담고 있는 내용 표시 (process-id, process의 logiscal address)
+
+- 단점 : 테이블 전체를 탐색해야함
+
+- 조치 : associative register 사용 (expensive)
+
+#### Shared Page
+
+Shared code
+
+- Re-entrant Code ( pure Code) : 아래의 두 조건을 만족해야함
+
+  - read only로 하여 프로세스 간에 하나의 code만 메모리에 올림
+
+  - Shared code는 모든 프로세스의 logical address space에서 동일한 위치에 있어야 함
+
+Private Code and Data
+
+- 각 프로세스들은 독자적으로 메모리에 올림
+
+- Private data는 logical address space의 아무곳에 와도 무방
+
+---
+
+### Segmentation
+
+프로그램은 의미 단위인 여러개의 segment로 구성
+
+- 작게는 프로그램을 구성하는 함수 하나하나를 세그먼트로 정의
+
+- 크게는 프로그램 전체를 하나의 세그먼트로 정의 가능
+
+- 일반적으로는 code, data, stack 부분이 하나씩의 세그먼트로 정의됨
+
+segment는 다음과 같은 logical unit 들임
+
+- main(), function, global variables, stack, symbol table, arrays
+
+---
+
+### Segmentation Architecture
+
+논리적 주소는 Segment-number, offset으로 구성됨
+
+Segment table
+
+- each table entry has :
+
+  - base : starting physical address of the segment
+
+  - limit : length of the segment
+
+segment table base register (STBR)
+
+- 물리적 메모리에서의 segment table의 위치
+
+segment table length register (STLR)
+
+- 프로그램이 사용하는 segment의 수
+
+Protection
+
+- 각 세그먼트 별로 Protection bit가 있음 (valid bit, Read/Write/Execution 권한 bit)
+
+Sharing
+
+- shared segment
+
+- same segment number
+
+- segment는 의미 단위이기 때문에 공유와 보안에 있어 paging보다 훨씬 효과적이다.
+
+Allocation
+
+- first-fit, best - fit
+
+- external fragementation 발생
+
+- segment의 길이가 동일하지 않으므로 가변분할 방식에서와 동일한 문제점들이 발생
+
+---
+
+### Segmentation with Pagin
+
+segment table entry가 segment의 base address를 가지고 있는 것이 아니라 segment를 구성하는 page table의 base address를 가지고 있음
