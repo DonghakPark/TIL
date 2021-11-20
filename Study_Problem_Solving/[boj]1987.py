@@ -4,6 +4,8 @@ Author : DongHak Park
 Contact: donghark03@naver.com
 """
 import sys
+from collections import defaultdict
+
 input = sys.stdin.readline
 
 dx = [0,0,1,-1]
@@ -27,7 +29,8 @@ R, C = map(int, input().split())
 alpha_map = [list(map(lambda x: ord(x) - 65, input().strip())) for _ in range(R)]
 
 answer = 1
-visited_alpha = [False] * 26
+# visited_alpha = [False] * 26
+visited_alpha = defaultdict(bool)
 visited_alpha[alpha_map[0][0]] = True
 solution(1,0,0)
 
