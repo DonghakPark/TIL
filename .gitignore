@@ -931,3 +931,4 @@ MigrationBackup/
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,c++,java,intellij,pycharm+all,python,android,androidstudio,jupyternotebooks
 Study_Problem_Solving/.vscode/c_cpp_properties.json
 Study_Problem_Solving/.vscode/tasks.json
+.vscode/tasks.json
